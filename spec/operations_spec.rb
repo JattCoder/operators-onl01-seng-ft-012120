@@ -42,5 +42,5 @@ describe "Operations" do
       bining.pry
     end
   end
-  
+
 end
