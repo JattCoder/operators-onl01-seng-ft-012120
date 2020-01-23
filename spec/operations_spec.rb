@@ -1,4 +1,4 @@
-
+requir = "pry"
 describe "Operations" do
   let(:file_contents) { File.read(File.join(File.dirname(__FILE__), '..', 'lib/operations.rb')) }
 
@@ -39,6 +39,7 @@ describe "Operations" do
       methods = file_contents.split("not_safe?")
       match = methods.last
       expect(match).to include("?")
+      bining.pry
     end
   end
   
